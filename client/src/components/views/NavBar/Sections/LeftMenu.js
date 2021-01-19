@@ -9,7 +9,7 @@ function LeftMenu(props) {
     <Menu.Item key="mail">
       <a href="/">Home</a>
     </Menu.Item>
-    <Menu.Item key="mail">
+    <Menu.Item key="rdmsrch">
       <a href="/randomsearch">Random Search</a>
     </Menu.Item>
     <SubMenu title={<span>Blogs</span>}>

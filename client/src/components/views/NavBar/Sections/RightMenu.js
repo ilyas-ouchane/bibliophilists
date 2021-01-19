@@ -50,6 +50,9 @@ function RightMenu(props) {
           </Badge>
         </Menu.Item>
 
+        <Menu.Item key="profile">
+          <a href="/profile">Profile</a>
+        </Menu.Item>
 
         <Menu.Item key="logout">
           <a onClick={logoutHandler}>Logout</a>
