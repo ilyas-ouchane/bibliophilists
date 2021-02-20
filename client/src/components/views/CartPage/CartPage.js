@@ -82,7 +82,7 @@ function CartPage(props) {
 
     return (
         <div style={{ width: '85%', margin: '3rem auto' }}>
-            <h1>My Cart</h1>
+            <h1>Panier</h1>
             <div>
 
                 <UserCardBlock
@@ -93,7 +93,7 @@ function CartPage(props) {
 
                 {ShowTotal ?
                     <div style={{ marginTop: '3rem' }}>
-                        <h2>Total amount: ${Total} </h2>
+                        <h2>Prix total: ${Total} </h2>
                     </div>
                     :
                     ShowSuccess ?

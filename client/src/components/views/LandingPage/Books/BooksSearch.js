@@ -5,13 +5,6 @@ const { Title } = Typography;
 const BooksSearch = (props) => {
 
     return (
-    //   <div>
-    //       <form onSubmit={props.searchBook} action="">
-    //           <br />
-    //           <input id="search" onChange={props.handleSearch} placeholder="Insert your book name" type="text"/>
-    //           <button type="button" className="btn btn-primary">Submit</button>
-    //       </form>
-    //   </div>
     <div>
         <div style={{ maxWidth: '700px', margin: '2rem auto' }}>
             <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
